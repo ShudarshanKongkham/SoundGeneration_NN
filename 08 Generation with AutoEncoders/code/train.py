@@ -4,7 +4,7 @@ from autoencoder import Autoencoder  # Importing the custom Autoencoder class
 # Set training hyperparameters
 LEARNING_RATE = 0.0005  # Learning rate for optimizer
 BATCH_SIZE = 32         # Number of samples per batch
-EPOCHS = 1000            # Number of epochs to train for
+EPOCHS = 500            # Number of epochs to train for
 
 # Function to load and preprocess the MNIST dataset
 def load_mnist():
