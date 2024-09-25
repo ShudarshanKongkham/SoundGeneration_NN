@@ -38,10 +38,10 @@ def plot_reconstructed_images(images, reconstructed_images):
     num_images = len(images)
     
     # Increase the figure size for more space between images
-    fig = plt.figure(figsize=(20, 6))  
+    fig = plt.figure(figsize=(16, 4))  
     
     # Adjust layout to add space between the rows and titles
-    plt.subplots_adjust(wspace=0.5, hspace=0.3)  
+    plt.subplots_adjust(wspace=0.3, hspace=0.2)  
     
     for i, (image, reconstructed_image) in enumerate(zip(images, reconstructed_images)):
         image = image.squeeze()  # Remove single-dimensional entries from the image
